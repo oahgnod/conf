@@ -1,0 +1,14 @@
+#!name=QAX Optimization
+
+[Rule]
+DOMAIN-SUFFIX,gacmotor.com,DIRECT
+DOMAIN-SUFFIX,360es.cn,DIRECT
+DOMAIN-SUFFIX,SRV-AD06.ESG.360ES.CN,DIRECT
+DOMAIN-SUFFIX,qianxin-inc.cn,DIRECT
+DOMAIN-SUFFIX,mail.qianxin.com,DIRECT
+
+[Host]
+*.lan = server:syslib
+*.qianxin-inc.cn = server:syslib
+*.qianxin.com = server:syslib
+*.360es.cn = server:syslib
