@@ -1,4 +1,5 @@
 #!name=QAX Optimization
+#!desc=使用 VPN 访问公司内网资源
 
 [Rule]
 DOMAIN-SUFFIX,gacmotor.com,DIRECT
